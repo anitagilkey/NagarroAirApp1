@@ -1,0 +1,6 @@
+frontend:
+  phases:
+    build:
+      commands:
+        - if [ "${AWS_BRANCH}" = "master" ]; then echo "master branch"; fi
+        - if [ "${AWS_BRANCH}" = "dev" ]; then echo "dev branch"; fi

@@ -1,9 +1,0 @@
-frontend:
-  phases:
-    build:
-      commands:
-        - npm install -g pkg-foo
-        - pkg-foo deploy
-        - yarn run build
-  artifacts:
-    baseDirectory: public

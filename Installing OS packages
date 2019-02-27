@@ -1,5 +1,0 @@
-build:
-  phases:
-    preBuild:
-      commands:
-        - yum install -y <package>

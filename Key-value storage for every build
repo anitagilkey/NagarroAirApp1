@@ -1,2 +1,0 @@
-envCache --set <key> <value>
-envCache --get <key> <value>
